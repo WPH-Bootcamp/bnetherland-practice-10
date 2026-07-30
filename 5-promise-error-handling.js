@@ -29,4 +29,7 @@ Promise.resolve()
   })
   .catch((err) => {
     console.error(err.message);
+  })
+  .finally(() => {
+    console.log('Wajib jalan');
   });
